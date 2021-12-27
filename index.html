@@ -18,7 +18,7 @@
         }
 
         div#messageArea {
-            position:absolute;
+            position: absolute;
             top: 20px;
             left: 30px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -52,14 +52,25 @@
             position: absolute;
             bottom: 0px;
             right: 0px;
-            padding: 15px;
+            padding: 10px;
             background-color: rgb(83, 175, 19);
+            border-radius: 5px;
+            text-align: center;
         }
 
         form input {
             background-color: rgb(152, 207, 113);
             border-color: rgb(83, 175, 19);
             font-size: 1em;
+            border-radius: 5px;
+        }
+
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+            padding-left: 0 px;
+            padding-top: 0 px;
+
         }
     </style>
 </head>
@@ -133,7 +144,8 @@
             </tr>
         </table>
         <form>
-            <input type="text" id="guessInput" placeholder="A0">
+
+            <input type="text" id="guessInput" placeholder="Exemple: A2">
             <input type="button" id="fireButton" value="Fire!">
         </form>
     </div>
