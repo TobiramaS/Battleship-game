@@ -206,10 +206,9 @@ function init() {
 
   var guessInput = document.getElementById("guessInput");
   guessInput.onkeypress = handleKeyPress;
-  // handle "return" key press
 
   model.generateShipLocations();
-  // place the ships on the game board
+  // generate ships on board
 }
 
 
